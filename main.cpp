@@ -108,22 +108,22 @@ int main(int argC,char *argV[])
 
    if(opt==1)
    {
-      cout << "Translation in x axis:"; cin >> tx;
-      cout << "translation in y axis:"; cin >> ty;
+      cout << "Translation in x axis: \n"; cin >> tx;
+      cout << "Translation in y axis: "; cin >> ty;
 
 
       translation(tx,ty);
    }
    else if(opt==2)
    {
-      cout << "Scaling in x axis:"; cin >> sx;
-      cout << "Scaling in y axis:"; cin >> sy;
+      cout << "Scaling in x axis: \n"; cin >> sx;
+      cout << "Scaling in y axis: "; cin >> sy;
 
       scale(sx,sy);
    }
    else
    {
-       cout << "BOOM BOOM";
+       cout << "END \nThank you\n\n\n\n";
    }
 
    glutDisplayFunc(Draw);
